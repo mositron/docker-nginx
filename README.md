@@ -11,7 +11,7 @@ Network Mode = host
 
 **docker-compose**
 ```yaml
-  php:
+  nginx:
     container_name: "nginx"
     image: positron/nginx
     restart: always
