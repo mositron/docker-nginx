@@ -1,6 +1,9 @@
 FROM nginx:stable
 
-RUN groupadd webmaster && useradd -s /sbin/nologin -d /var/www/ -M -g webmaster webmaster && passwd -l webmaster
+
+RUN mkdir -p /var/www \
+  && groupadd webmaster && useradd -s /sbin/nologin -d /var/www/ -M -g webmaster webmaster && passwd -l webmaster
+
 ONBUILD RUN chown -R webmaster:webmaster /var/www
 
 ADD nginx.conf /etc/nginx/

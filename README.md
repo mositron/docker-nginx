@@ -1,7 +1,7 @@
 #Nginx Image
 My Docker Images
 
-[NGINX](https://hub.docker.com/r/positron/nginx) -> [PHP-FPM](https://hub.docker.com/r/positron/php) -> [MONGO](https://hub.docker.com/r/positron/mongo) / [MEMCACHED](https://hub.docker.com/r/positron/memcached)
+[NGINX](https://hub.docker.com/r/positron/nginx) -> [PHP-FPM](https://hub.docker.com/r/positron/php) -> [MONGO](https://hub.docker.com/r/positron/mongo)
 
 ## Dockerfile
 [positron/nginx](https://github.com/positronth/docker-nginx/blob/master/Dockerfile), [positron/nginx:latest](https://github.com/positronth/docker-nginx/blob/master/Dockerfile)
