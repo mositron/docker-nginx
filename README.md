@@ -29,7 +29,7 @@ Network Mode = host
 # Note
 **build**
 ```
-sudo docker build -t positron/nginx -t positron/nginx:latest /home/positron/My/Webs/.docker/nginx/
+sudo docker build -t positron/nginx -t positron/nginx:latest /home/positron/My/Webs/.docker/nginx/ --no-cache=true
 ```
 **push**
 ```
